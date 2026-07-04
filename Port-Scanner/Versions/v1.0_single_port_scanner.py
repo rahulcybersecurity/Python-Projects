@@ -2,7 +2,7 @@
 ============================================================
 Project      : TCP Port Scanner
 Version      : 1.0
-Author       : Golu Yadav
+Author       : Rahul Yadav
 Language     : Python 3
 
 Description:
