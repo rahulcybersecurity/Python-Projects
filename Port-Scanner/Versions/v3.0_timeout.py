@@ -2,7 +2,7 @@
 ============================================================
 Project      : TCP Port Scanner
 Version      : 3.0
-Author       : Golu Yadav
+Author       : Rahul Yadav
 Language     : Python 3
 
 Description:
@@ -12,7 +12,7 @@ A basic TCP Connect Port Scanner that scans TCP ports
 Features:
 ✔ Scan multiple TCP ports (1-100)
 ✔ Create a new socket for every connection
-✔ Socket timeout (1 second)
+✔ Socket timeout (5 second)
 ✔ Human-readable output
 ✔ Proper socket resource management
 
@@ -30,7 +30,7 @@ v2.0
 - Better variable names
 
 v3.0
-- Added 1-second socket timeout
+- Added 5-second socket timeout
 - Faster scanning on filtered/unresponsive ports
 - Improved scan reliability
 
@@ -47,7 +47,7 @@ target_ip = input("Enter Target IPv4 Address: ")
 print("\n===================================")
 print(f"Scanning Target : {target_ip}")
 print("Port Range      : 1 - 100")
-print("Timeout         : 1 Second")
+print("Timeout         : 5 Second")
 print("===================================\n")
 
 # Scan ports 1 to 100
